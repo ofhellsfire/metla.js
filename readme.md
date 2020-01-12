@@ -15,6 +15,7 @@ Main features are:
 - no operation (output what will be deleted only)
 - configurable
 - ready for CI or cronjobs
+- traceable
 
 ## Usage
 
