@@ -114,7 +114,7 @@ Delete files
 ```
 # Create config if you don't want supply command line arguments every time
 $ cat <<EOF | tee /tmp/metla.conf
-path=/tmp/alala
+path=/tmp/
 log=/tmp/metla.log
 keep=3
 tmpl=.+[.]txt
