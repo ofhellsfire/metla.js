@@ -8,8 +8,10 @@
     "pretest": "eslint --ignore-path .gitignore lib/** index.js",
     "build-binaries": "pkg -t node12-linux-x64,node12-win-x64 --out-dir bin index.js; mv bin/index-linux bin/metla; mv bin/index-win.exe bin/metla.exe"
   },
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "Andy Lawrence"
+  },
+  "license": "MIT",
   "dependencies": {
     "commander": "^3.0.2",
     "ini": "^1.3.5",
@@ -31,5 +33,17 @@
   },
   "engines": {
     "node": ">=12.9.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ofhellsfire/metla.js"
+  },
+  "bugs": {
+    "url": "https://github.com/ofhellsfire/metla.js/issues"
+  },
+  "keywords": [
+    "regex", "batch", "file", "remove"
+  ],
+  "homepage": "https://github.com/ofhellsfire/metla.js",
+  "readmeFilename": "readme.md"
 }
