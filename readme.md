@@ -70,12 +70,11 @@ There are 4 levels where configuration may be specified (from the lowest precede
 Every next level overrides options defined at lower precedence level
 
 `ini` configuration files can have the following options:
-
-`path` - path for files search
-`tmpl` - regular expression
-`keep` - number of files to keep
-`mode` - ordering mode
-`log` - path to log file
+- `path` - path for files search
+- `tmpl` - regular expression
+- `keep` - number of files to keep
+- `mode` - ordering mode
+- `log` - path to log file
 
 ## Examples
 
