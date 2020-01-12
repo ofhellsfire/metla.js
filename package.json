@@ -44,6 +44,6 @@
   "keywords": [
     "regex", "batch", "file", "remove"
   ],
-  "homepage": "https://github.com/ofhellsfire/metla.js",
-  "readmeFilename": "readme.md"
+  "homepage": "https://github.com/ofhellsfire/metla.js#readme",
+  "bin": { "metla": "./index.js" }
 }
