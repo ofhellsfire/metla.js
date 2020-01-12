@@ -61,8 +61,8 @@ Options:
 
 ## Configuration
 
-There are 3 levels where configuration may be specified (from the lowest precedence to the highest one):
-0. Default configuration, comes with **Metla** (can't be changed, but you may not specify options if default config works for you)
+There are 4 levels where configuration may be specified (from the lowest precedence to the highest one):
+1. Default configuration, comes with **Metla** (can't be changed, but you may not specify options if default config works for you)
 1. `${HOME}/.config/metla.ini` - user default config in [ini](https://www.techopedia.com/definition/24302/ini-file) format
 2. External user custom configuration in [ini](https://www.techopedia.com/definition/24302/ini-file) format
 3. Command line options
