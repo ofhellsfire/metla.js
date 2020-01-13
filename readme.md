@@ -1,8 +1,8 @@
-# Metla / metla.js [![Build Status](https://travis-ci.com/ofhellsfire/metla.js.svg?branch=master)](https://travis-ci.com/ofhellsfire/metla.js) ![Node.js 10+](https://img.shields.io/badge/node.js-%3E%3D%2010.0.0-brightgreen) ![cli](https://img.shields.io/badge/-cli-yellow)
+# metla [![Build Status](https://travis-ci.com/ofhellsfire/metla.js.svg?branch=master)](https://travis-ci.com/ofhellsfire/metla.js) ![Node.js 10+](https://img.shields.io/badge/node.js-%3E%3D%2010.0.0-brightgreen) ![cli](https://img.shields.io/badge/-cli-yellow)
 
 Remove Files By Regexp Template
 
-**Metla** allows you to remove files by searching via regexp template.
+**metla** allows you to remove files by searching via regexp template.
 
 Main features are:
 - batch file deletion
@@ -26,16 +26,16 @@ There are 2 installation options:
 ### NPM
 
 ```
-npm install metla.js
+npm install metla
 # or globally
-npm install -g metla.js
+npm install -g metla
 ```
 
 ### Binary Package
 
-Go to [release](https://github.com/ofhellsfire/metla.js/releases) page and download binary for your platform. This option allows you to run **Metla** without **Node.js** installed on your system.
+Go to [release](https://github.com/ofhellsfire/metla.js/releases) page and download binary for your platform. This option allows you to run **metla** without **Node.js** installed on your system.
 
-If you don't want to specify path before binary name when executing **Metla**, then put binary to any path from `${PATH}` (e.g. `/usr/local/bin`)
+If you don't want to specify path before binary name when executing **metla**, then put binary to any path from `${PATH}` (e.g. `/usr/local/bin`)
 
 ## Usage
 
@@ -62,7 +62,7 @@ Options:
 ## Configuration
 
 There are 4 levels where configuration may be specified (from the lowest precedence to the highest one):
-1. Default configuration, comes with **Metla** (can't be changed, but you may not specify options if default config works for you)
+1. Default configuration, comes with **metla** (can't be changed, but you may not specify options if default config works for you)
 1. `${HOME}/.config/metla.ini` - user default config in [ini](https://www.techopedia.com/definition/24302/ini-file) format
 2. External user custom configuration in [ini](https://www.techopedia.com/definition/24302/ini-file) format
 3. Command line options
@@ -138,7 +138,7 @@ metla.conf  text10.txt  text11.txt  text12.txt
 
 ## Building Binaries
 
-You can build binary for Linux/Windows and use **Metla** without installed **Node.js**. The binary size will be pretty large (around 40Mb) for such a simple tool, so keep it in mind.
+You can build binary for Linux/Windows and use **metla** without installed **Node.js**. The binary size will be pretty large (around 40Mb) for such a simple tool, so keep it in mind.
 
 ```
 # building binaries
