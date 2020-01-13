@@ -1,4 +1,4 @@
-# Metla / metla.js
+# Metla / metla.js [![Build Status](https://travis-ci.com/ofhellsfire/metla.js.svg?branch=master)](https://travis-ci.com/ofhellsfire/metla.js) ![Node.js 10+](https://img.shields.io/badge/node.js-%3E%3D%2010.0.0-brightgreen) ![cli](https://img.shields.io/badge/-cli-yellow)
 
 Remove Files By Regexp Template
 
