@@ -1,6 +1,6 @@
 {
   "name": "metla",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "search and remove files by regexp",
   "main": "index.js",
   "scripts": {
