@@ -22,13 +22,13 @@
     "chai-as-promised": "^7.1.1",
     "eslint": "^6.8.0",
     "eslint-config-standard": "^14.1.0",
-    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
-    "mocha": "^6.2.1",
+    "mocha": "^6.2.2",
     "nyc": "^14.1.1",
-    "pkg": "^4.4.2",
+    "pkg": "^4.4.4",
     "sleep": "^6.1.0"
   },
   "engines": {
