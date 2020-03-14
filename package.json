@@ -42,8 +42,13 @@
     "url": "https://github.com/ofhellsfire/metla.js/issues"
   },
   "keywords": [
-    "regex", "batch", "file", "remove"
+    "regex",
+    "batch",
+    "file",
+    "remove"
   ],
   "homepage": "https://github.com/ofhellsfire/metla.js#readme",
-  "bin": { "metla": "./index.js" }
+  "bin": {
+    "metla": "./index.js"
+  }
 }
